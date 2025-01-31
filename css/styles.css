@@ -271,6 +271,42 @@ body {
 	.hero__img-wrapper img {
 		width: 500px;
 	}
+
+	.why-choos {
+		padding-top: 9rem;
+		padding-bottom: 9rem;
+	}
+
+	.why-choos__info {
+		margin-bottom: 7rem;
+	}
+
+	.why-choos__title {
+		font-size: 3.6rem;
+		margin-bottom: 1.4rem;
+	}
+
+	.why-choos__text {
+		font-size: 1.7rem;
+	}
+
+	.why-choos__list {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1.2rem;
+	}
+
+	.why-choos__img-wrapper {
+		margin-bottom: 3.6rem;
+	}
+
+	.why-choos__item-title {
+		font-size: 2.2rem;
+		margin-bottom: 2.4rem;
+	}
+
+	.why-choos__item-text {
+		font-size: 1.5rem;
+	}
 }
 
 @media screen and (max-width: 960px) {
@@ -323,5 +359,120 @@ body {
 	.hero__img-wrapper img {
 		width: 98%;
 		object-fit: contain;
+	}
+
+	.why-choos {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+
+	.why-choos__info {
+		margin-bottom: 5rem;
+	}
+
+	.why-choos__title {
+		font-size: 3.2rem;
+		margin-bottom: 1.2rem;
+	}
+
+	.why-choos__text {
+		font-size: 1.2rem;
+	}
+
+	.why-choos__list {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.5rem;
+	}
+
+	.why-choos__img-wrapper {
+		margin-bottom: 3.6rem;
+	}
+
+	.why-choos__item-title {
+		font-size: 2.2rem;
+		margin-bottom: 2.4rem;
+	}
+
+	.why-choos__item-text {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.why-choos {
+		padding-top: 6rem;
+		padding-bottom: 6rem;
+	}
+
+	.why-choos__info {
+		margin-bottom: 3.6rem;
+	}
+
+	.why-choos__title {
+		font-size: 2.8rem;
+		margin-bottom: 1rem;
+	}
+
+	.why-choos__list {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.why-choos__img-wrapper {
+		width: 50px;
+		height: 50px;
+		margin-bottom: 2.8rem;
+	}
+
+	.why-choos__img-wrapper img {
+		width: 24px;
+		height: 24px;
+	}
+
+	.why-choos__item-title {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.why-choos__item-text {
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.why-choos {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+
+	.why-choos__info {
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+
+	.why-choos__title {
+		font-size: 2.6rem;
+		margin-bottom: 1rem;
+	}
+
+	.why-choos__list {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.why-choos__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		max-width: 98%;
+	}
+
+	.why-choos__img-wrapper {
+		margin-bottom: 2.4rem;
+	}
+
+	.why-choos__item-title {
+		font-size: 1.8rem;
+		margin-bottom: 1.8rem;
 	}
 }
